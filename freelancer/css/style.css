@@ -122,3 +122,21 @@ color: var(--blanco);
     display: flex;
     align-items: flex-end;
 }
+
+@media (min-width:768px) { 
+    .servicios{
+        display: grid;
+    
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+
+@mq(min-width:768px){
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
