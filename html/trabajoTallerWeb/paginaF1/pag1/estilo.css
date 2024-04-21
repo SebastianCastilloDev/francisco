@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(128, 0, 32,70%);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+header{
+    background-color: rgb(128, 0, 32);
+}
+nav{
+    background-color: rgba(05, 05, 05,40%);
+    color: white;
+    text-align: left;
+    text-justify: le;
+    padding: 10px 0px;
+}
+ul{
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    display: flex;
+}
+.texto div{
+    margin-right: 1px;
+}
+div aside{
+    position: relative; /* Esto es importante para usar la propiedad right */
+    right: 0;
+    width: 20%;
+    background-color: silver;
+}
+
+
+div .color{
+    padding-left: 10px;
+    width: 80%;
+    background-color: rgb(226, 211, 211);
+}
+footer{
+    background-color: rgb(128, 0, 22);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+div img{
+    padding: 10px 30px; 
+}

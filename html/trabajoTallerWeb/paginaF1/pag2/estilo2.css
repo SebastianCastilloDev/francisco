@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(128, 0, 32,70%);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+header{
+    background-color: rgb(128, 0, 32);
+}
+nav{
+    background-color: rgba(05, 05, 05,40%);
+    color: white;
+    text-align: left;
+    text-justify: le;
+    padding: 10px 0px;
+}
+ul{
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.texto div{
+    margin-right: 1px;
+}
+div aside{
+    width: 20%;
+    background-color: silver;
+}
+.color{
+    width: 80%;
+}
+
+
+div .color{
+    padding-left: 10px;
+    width: 80%;
+    background-color: rgb(226, 211, 211);
+}
+footer{
+    display: flex;
+    background-color: rgb(128, 0, 22);
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
